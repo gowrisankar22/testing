@@ -34,3 +34,7 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+          nslookup console.sap-org.cookie.sesame.street
+          dig console.sap-org.cookie.sesame.street
+          curl -vk https://console.sap-org.cookie.sesame.street
+          
